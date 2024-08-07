@@ -24,13 +24,6 @@ const Header = () => {
 
         <div className="flex gap-4 items-center">
           <JoinWaitlistBtn />
-
-          {/* <button
-            className="relative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#190d2e] to-[#4a208a] text-white shadow-[0px_0px_12px_#8c45ff] before:border before:inset-0 before:absolute before:border-white/40 before:border-t-0 before:rounded-lg"
-          >
-            <span className="z-10">Join waitlist</span>
-          </button> */}
-
           <MenuIcon className='block md:hidden'/>
         </div>
 
