@@ -1,7 +1,5 @@
 import { LogoIcon, MenuIcon } from "@/assets";
-import JoinWaitlistBtn from "@/components/JoinWaitlistBtn";
-
-// relative after:content-[''] after:inset-0 after:absolute after:bg-gradient-to-b after:from-[#f9fcff] after:to-[#dee4ea]  after:rounded-lg
+import GradientBtn from "@/components/GradientBtn";
 
 const Header = () => {
   return <header className="py-4 border-b border-white/15 md:border-none">
@@ -21,9 +19,10 @@ const Header = () => {
           </nav>
         </div>
 
-
         <div className="flex gap-4 items-center">
-          <JoinWaitlistBtn />
+          <GradientBtn>
+            Join Waitlist
+          </GradientBtn>
           <MenuIcon className='block md:hidden'/>
         </div>
 
