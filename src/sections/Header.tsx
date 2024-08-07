@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-center items-center border rounded-lg border-white/15 h-10 w-10">
           <LogoIcon className='h-8 w-8' />
         </div>
-
+  
         <div className="hidden md:block">
           <nav className="flex items-center justify-center gap-8 text-white/70 text-sm">
             <a className="hover:text-white" href="#">Features</a>
