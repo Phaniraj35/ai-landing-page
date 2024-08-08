@@ -2,9 +2,9 @@ import { LogoIcon, MenuIcon } from "@/assets";
 import GradientBtn from "@/components/GradientBtn";
 
 const Header = () => {
-  return <header className="py-4 border-b border-white/15 md:border-none">
+  return <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-20 ">
     <div className="container">
-      <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl">
+      <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 max-w-2xl mx-auto rounded-xl backdrop-blur">
         <div className="flex justify-center items-center border rounded-lg border-white/15 h-10 w-10">
           <LogoIcon className='h-8 w-8' />
         </div>
