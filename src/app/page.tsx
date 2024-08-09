@@ -1,9 +1,12 @@
-import { Header, Hero, LogoTicker } from "@/sections";
+import { Features, Header, Hero, LogoTicker } from "@/sections";
 
 export default function Home() {
-  return <div className="w-full">
-    <Header />
-    <Hero />
-    <LogoTicker />
-  </div>;
+  return (
+    <div className="w-full">
+      <Header />
+      <Hero />
+      <LogoTicker />
+      <Features />
+    </div>
+  );
 }
