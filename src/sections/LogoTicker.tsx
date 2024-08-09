@@ -19,7 +19,7 @@ const logos = [
 
 const LogoTicker = () => {
   return (
-    <div className="w-full py-20 bg-black">
+    <div className="w-full py-20 md:py-24 bg-black">
       <div className="container">
         <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
           <motion.div
